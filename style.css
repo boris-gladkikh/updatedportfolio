@@ -1,10 +1,8 @@
 body {
-margin:  0;
-padding: 0;
-border: 0;
-/* background-color: tomato; */ 
+margin:  0px;
+padding: 0px;
+border: 0px;
 }
-
 
 
 .nav-color {
@@ -13,28 +11,20 @@ border: 0;
   color: white;
 }
 
-
 .nav-link {
   color:white;
 }
+.nav-link:active{
+  color:yellow;
+}
 
-.nav{
-  position: fixed;
-  height: 100vh;
-  width: 15%;
-  text-align: center;
-  margin-right: 0;
-}
-.nav p {
-  bottom: 0px;
-}
+
 .section {
-  padding:  10px;
-  padding-top: 20px;
-  height: 100vh;
+  padding: 50px 10px 10px 10px;
+  min-height: 100vh;
   background-color: white;
   color: black;
-  margin-left: 0;
+  /* margin-left: 0; */
 }
 
 .title-card {
@@ -42,21 +32,44 @@ border: 0;
   padding: 10px;
   background-size:  100vw;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   height: 100vh;
-  color:white;
+  color:WHITE;
+  text-align: right;
 
 }
 .inner-title{
-  padding-top: 40vh;
+  padding-top: 20vh;
+}
+.headshot {
+  width: 150px;
+margin-left: 20%;
+margin-top: 15%;
 }
 
-/* .row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+.profile-image {
+  padding-top: 40px;
+  width: 400px;
+  padding-left: 20px;
 }
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-} */
+
+.portfolio-image {
+  padding-top: 40px;
+  width: 500px;
+  /* border: 1px solid black; */
+  opacity: 0.5;
+  margin-bottom: 10px;
+
+}
+.portfolio-image:hover {
+opacity: 1;
+
+}
+
+
+footer {
+  background-color: #231E1E;
+  text-align: center;
+  color:white;
+  padding: 30px;
+}

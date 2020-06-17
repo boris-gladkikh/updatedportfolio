@@ -5,49 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <title>Boris Gladkikh</title>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-l-3 col-xs-1">
-        <ul class=" nav-color nav  flex-column">
-
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <p>
-            &copy; Boris Gladkikh 2020
-          </p>
-        </ul>
-
+    <nav class="nav nav-color fixed-top ml-0">
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#portfolio">Portfolio</a>
+      <a class="nav-link" href="#resume">Resume</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <div class=" section title-card" id="home">
+      <div class="inner-title">
+        <h1>Boris Gladkikh</h1>
+        <h2>Full-Stack Software Engineer</h2>
+        <h3>Oakland, CA</h3>
       </div>
-      <div class="col-l-9 col-xs-1 no-gutters">
-        <div class="title-card" id="home">
-          <div class="inner-title">
-            <h2>Boris Gladkikh</h2>
-            <h3>Full-Stack Software Engineer</h3>
-            <h3>Oakland, CA</h3>
-          </div>
+    </div>
 
+    <div class="section about" id="about">
+      <h2>About</h2>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="profile-image img-fluid" src="img/boris tie.png" alt="headshot of boris">
         </div>
-        <div class="section about" id="about">
-          <h2>About</h2>
+        <div class="pt-5 col-lg-6">
           <h5>Hello! I'm Boris Gladkikh.</h5><br>
           <p>
             I am a software engineer residing in the Bay Area. I specialize in front-end and full-stack development. My
@@ -65,25 +53,42 @@
           <p>
             <b>Additional Skills:</b> <br>
             HTML, CSS, Photoshop, Illustrator, Figma
-
-
           </p>
         </div>
-        <div class="section portfolio" id="portfolio">
-          <h2>Portfolio</h2>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="section portfolio" id="portfolio">
+      <h2>Portfolio</h2>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="portfolio-image img-fluid" src="img/career-cat-two.png" alt="career-cat one">
+        </div>
+        <div class="pt-5 col-lg-6">
           <p>
             <b>Career Cat</b>
           </p>
           <p>
             A full-stack job hosting and application website - User can create an account (with bcrypt security and
             password hashing), browse job listings by company or job, and single-click “apply” for a job. User can then
-            see a list of applied jobs and edit theirprofile info on their profile page.
+            see a list of applied jobs and edit their profile info on their profile page.
           </p>
           <p>
             <b>Tools:</b><br>
             <b>Front-end:</b> React, CSS <br>
             <b>Back-end:</b> Node Express, SQL database with Postgres, custom ORM.</p>
-
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="portfolio-image img-fluid" src="img/warbler-one.png" alt="warbler-one">
+        </div>
+        <div class="pt-5 col-lg-6">
           <p>
             <b>Warbler</b>
           </p>
@@ -98,7 +103,13 @@
             <b>Back-end:</b> Python, Flask, SQL/postgres database, SQL Alchemy
           </p>
 
-          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="portfolio-image img-fluid" src="img/warbler-two.png" alt="warbler-one">
+        </div>
+        <div class="pt-5 col-lg-6">
           <p>
             <b>Bulletin</b>
           </p>
@@ -110,52 +121,105 @@
             <b>Tools:</b><br>
             <b>Front-end:</b> React, Redux, CSS, Bootstrap<br>
             <b>Back-end:</b> Node/Express, SQL/postgres database
-
-          </p>
-        </div>
-
-        <div class="section resume" id="resume">
-          <h2>Resume</h2>
-          <h4>Work Exeprience</h4>
-          <p>Paleo twee bicycle rights, scenester glossier synth pork belly four dollar toast neutra. Pour-over 8-bit
-            bushwick slow-carb, flannel craft beer chicharrones blue bottle man braid post-ironic mumblecore. Sartorial
-            banh mi humblebrag listicle, art party fixie stumptown. Art party single-origin coffee paleo leggings mlkshk
-            deep v hashtag mumblecore. Adaptogen fanny pack meh VHS coloring book.
-          </p>
-          <h4> Education</h4>
-          <p>Paleo twee bicycle rights, scenester glossier synth pork belly four dollar toast neutra. Pour-over 8-bit
-            bushwick slow-carb, flannel craft beer chicharrones blue bottle man braid post-ironic mumblecore. Sartorial
-            banh mi humblebrag listicle, art party fixie stumptown. Art party single-origin coffee paleo leggings mlkshk
-            deep v hashtag mumblecore. Adaptogen fanny pack meh VHS coloring book.
           </p>
 
         </div>
-        <div class="section contact" id="contact">
-          <h2>Contact</h2>
-          <p>
-            For project inquiries, employment opportunities, collaborative endeavors, etc. please E-mail me or find me
-            at any of the social media links below.
-          </p>
-
-
-        </div>
-
-
-
-
       </div>
     </div>
 
+    <div class="section resume" id="resume">
+      <h2>Resume</h2>
+      <hr>
+      <h3>Work Experience</h3><br>
+      <p>
+      <h5>Full-Stack Engineer</h5>
+      <h6>Livestack | San Francisco, CA | internship | May 2020 - June 2020</h6>
+      <ul>
+        <li>Worked with React/Node Express stack</li>
+        <li>Created custom date/time formatter using Moment/Moment-range for confirming DB date-time data</li>
+        <li>Wrote custom endpoints in Express backend API server </li>
+        <li>Updated multiple SQL databases with custom API calls and Postgres </li>
+        <li>Rigorously tested React components with React Testing Library unit tests & programmatic non-expiring
+          date/time data</li>
 
-    <!-- end second container -->
+      </ul>
+      </p>
+      <p>
+      <h5>Adjunct Instructor</h5>
+      <h6>Expression/SAE | Emeryville, CA | Nov 2017 - Dec 2018</h6>
+      <ul>
+        <li>Instructor of final module of the SAE audio engineering program </li>
+        <li>Taught music business, audio post production & game audio and sound design to classes of 8-10 students</li>
+        <li>Taught basic website development and concert/venue sound principles</li>
+
+      </ul>
+      </p>
+      <p>
+      <h5>Audio Engineer/Sound Designer</h5>
+      <h6>Mickey Hart/Grateful Dead | Sebastopol, CA | Mar 2017 - Oct 2018</h6>
+      <ul>
+        <li>MIDI system setup, design, integration/optimization with custom instruments for Mickey Hart’s touring rig
+          with Dead & Company
+        </li>
+        <li>Live set sound design, instrument programming and calibration</li>
+        <li>Sound design, recording, and engineering for Mickey Hart studio album</li>
+
+      </ul>
+      </p>
+
+
+
+
+
+      <h3> Education</h3><br>
+      <p>
+      <h5>Rithm School</h5>
+      <h6>San Francisco, CA | Mar 2020 - July 2020</h6>
+      Full-Stack Web Development Program
+
+      </p>
+      <p>
+      <h5>Full Sail University</h5>
+      <h6>Winter Park, FL | Jan 2006 - Jan 2008</h6>
+      Bachelor's of Science - Music Business <br>
+      Associate's of Science - Audio Recording & Engineering
+      </p>
+
+
+
+
+
+      <hr>
+      <a href="https://github.com/gladkillmusic/portfoliowebsite/raw/master/Boris%20Gladkikh%202019%20resume.pdf">
+        <h4>You can download my current resume here.</h4>
+      </a>
+
+
+    </div>
+
+    <div class="section contact" id="contact">
+      <h2>Contact</h2>
+      <hr>
+      <p>
+        For project inquiries, employment opportunities, collaborative endeavors, etc. please E-mail me or find me
+        at any of the social media links below.
+      </p>
+      <a href="mailto:borisagladkikh@gmail.com">
+        <h5> Boris Gladkikh</h5>
+      </a>
+      <h5>Oakland, CA</h5>
+
+
+    </div>
   </div>
 
   <script src="https://unpkg.com/jquery"></script>
   <script src="https://unpkg.com/popper"></script>
   <script src="https://unpkg.com/bootstrap"></script>
-  <div>
-
-  </div>
+  <footer class="nav-fluid">
+    <a class="link" href="#home">Back To Top</a><br>
+    &copy; Boris Gladkikh 2020
+  </footer>
 
 
 
