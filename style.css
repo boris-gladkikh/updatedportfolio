@@ -17,6 +17,13 @@ border: 0px;
 .nav-link:active{
   color:yellow;
 }
+.nav-link:hover{
+  color:tomato;
+}
+a:hover{
+  color:tomato!important;
+  text-decoration: none;
+}
 
 
 .section {
@@ -41,6 +48,9 @@ border: 0px;
 .inner-title{
   padding-top: 20vh;
 }
+.inner-title:hover{
+  color:tomato;
+}
 .headshot {
   width: 150px;
 margin-left: 20%;
@@ -64,6 +74,20 @@ margin-top: 15%;
 .portfolio-image:hover {
 opacity: 1;
 
+}
+
+.fab:hover{
+  color: tomato;
+}
+
+i {
+  padding-right: 20px;
+}
+.links {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
 }
 
 
