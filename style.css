@@ -50,9 +50,9 @@ a:hover{
 .inner-title{
   padding-top: 15vh;
 }
-.inner-title:hover{
+/* .inner-title:hover{
   color:tomato;
-}
+} */
 .headshot {
   width: 150px;
 margin-left: 20%;
