@@ -15,6 +15,10 @@ html {
   color: white;
 }
 
+.line {
+  border: 1px solid black;
+}
+
 .nav-link {
   color:white;
 }
@@ -31,9 +35,9 @@ a:hover{
 
 
 .section {
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
   min-height: 100vh;
-  background-color: white;
+  background-color: rgba(252, 252, 252, 0.945);
   color: black;
 }
 
@@ -50,14 +54,7 @@ a:hover{
 .inner-title{
   padding-top: 15vh;
 }
-/* .inner-title:hover{
-  color:tomato;
-} */
-.headshot {
-  width: 150px;
-margin-left: 20%;
-margin-top: 15%;
-}
+
 
 .profile-image {
   padding-top: 40px;
@@ -66,16 +63,20 @@ margin-top: 15%;
 }
 
 .portfolio-image {
-  padding-top: 40px;
-  width: 500px;
-  /* border: 1px solid black; */
-  opacity: 0.5;
-  margin-bottom: 10px;
+  opacity: 1;
+  /* width: 525px; */
+  margin: 10px;
+}
+
+.portfolio-image:hover {
+opacity: .75;
+border: 1px solid black;
 
 }
-.portfolio-image:hover {
-opacity: 1;
 
+.write-up {
+  display: flex;
+  justify-content: start;
 }
 
 .fab:hover{
@@ -98,4 +99,9 @@ footer {
   text-align: center;
   color:white;
   padding: 30px;
+}
+
+.portfolio-table{
+ background-color: crimson;
+ width: auto;
 }
