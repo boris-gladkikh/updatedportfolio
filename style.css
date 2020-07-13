@@ -19,6 +19,7 @@ html {
   border: 1px solid black;
 }
 
+
 .nav-link {
   color:white;
 }
@@ -75,8 +76,8 @@ border: 1px solid black;
 }
 
 .write-up {
-  display: flex;
-  justify-content: start;
+padding: 0px;
+height: auto;
 }
 
 .fab:hover{
