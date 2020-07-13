@@ -31,7 +31,7 @@ a:hover{
 
 
 .section {
-  padding: 50px 10px 10px 10px;
+  padding: 50px 50px 50px 50px;
   min-height: 100vh;
   background-color: white;
   color: black;
@@ -39,7 +39,7 @@ a:hover{
 
 .title-card {
   background-image: url(img/boris\ bw\ on\ stairs.jpg);
-  padding: 10px;
+  padding: 40px;
   background-size:  100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
