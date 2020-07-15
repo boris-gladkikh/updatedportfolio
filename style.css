@@ -11,7 +11,7 @@ html {
 }
 .text-hilite {
   /* color:#95a2ae; */
-  color:#ddd;
+  color:white;
 }
 
 .nav-color {
@@ -39,7 +39,7 @@ a:hover{
   background-color:rgb(62, 61, 61);
   margin:auto;
   font-size: 16px !important;
-  color:white;
+  color:lightgray;
 }
 
 .hero {
