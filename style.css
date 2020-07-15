@@ -2,60 +2,79 @@ body {
 margin:  0px;
 padding: 0px;
 border: 0px;
+background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+
 }
 
 html {
   scroll-behavior: smooth;
 }
-
+.text-hilite {
+  /* color:#95a2ae; */
+  color:#ddd;
+}
 
 .nav-color {
-  background-color:#231E1E;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   text-align: center;
   color: white;
 }
 
-.line {
-  border: 1px solid black;
-}
-
-
 .nav-link {
   color:white;
 }
-.nav-link:active{
-  color:yellow;
-}
 .nav-link:hover{
-  color:tomato;
-}
-a:hover{
-  color:tomato!important;
-  text-decoration: none;
+  color:black !important;
 }
 
+
+a:hover{
+  color:yellow !important;
+  text-decoration: none;
+}
 
 .section {
   padding: 60px;
   min-height: 100vh;
-  background-color: rgba(252, 252, 252, 0.945);
-  color: black;
+  background-color:rgb(62, 61, 61);
+  margin:auto;
+  font-size: 16px !important;
+  color:white;
+}
+
+.hero {
+  color: white;
+  height: 100vh;
+  /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  width: 100%;
+  z-index:2;
+}
+
+#header{
+  font-size: 88px;
+}
+
+#subheader{
+  font-size: 36px;
+}
+
+.primary-font {
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+.secondary-font {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .title-card {
-  background-image: url(img/boris\ bw\ on\ stairs.jpg);
-  padding: 40px;
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color:WHITE;
-  text-align: right;
-
-}
-.inner-title{
-  padding-top: 15vh;
+  padding-top: 20%;
+  z-index: 2;
+  /* position:fixed; */
 }
 
+.line {
+  border-top: 1px solid white;
+}
 
 .profile-image {
   padding-top: 40px;
@@ -65,14 +84,12 @@ a:hover{
 
 .portfolio-image {
   opacity: 1;
-  /* width: 525px; */
   margin: 10px;
 }
 
 .portfolio-image:hover {
 opacity: .75;
-border: 1px solid black;
-
+border: 1px solid white;
 }
 
 .write-up {
@@ -80,10 +97,13 @@ padding: 0px;
 height: auto;
 }
 
-.fab:hover{
-  color: tomato;
+.yella {
+  color: #f0ad4e;
 }
 
+.yella:hover{
+  color:yellow !important;
+}
 
 i {
   padding-right: 20px;
@@ -95,16 +115,13 @@ i {
   justify-content:left;
 }
 
-
-
 footer {
-  background-color: #231E1E;
+  background-color:rgb(62, 61, 61);
   text-align: center;
   color:white;
-  padding: 30px;
+  padding: 10px;
 }
 
 .portfolio-table{
- background-color: crimson;
  width: auto;
 }
