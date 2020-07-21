@@ -34,7 +34,7 @@ a:hover{
 }
 
 .section {
-  padding: 90px;
+  padding: 60px;
   min-height: 100vh;
   background-color:rgb(62, 61, 61);
   margin:auto;
@@ -52,7 +52,7 @@ a:hover{
 }
 
 #header{
-  font-size: 100px;
+  font-size: 88px;
 }
 
 #subheader{
