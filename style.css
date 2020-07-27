@@ -37,10 +37,11 @@ a:hover{
   padding: 60px;
   min-height: 100vh;
   background-color:rgb(62, 61, 61);
-  margin:auto;
+  /* margin:auto; */
   font-size: 16px !important;
   color:lightgray;
 }
+
 
 .hero {
   color: white;
@@ -128,4 +129,18 @@ footer {
 
 .btn:active {
   background-color: darkorange !important;
+}
+
+.headshot{
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.font14 {
+  font-size: 14pt;
+}
+.font16 {
+  font-size: 16pt;
 }
