@@ -125,3 +125,7 @@ footer {
 .portfolio-table{
  width: auto;
 }
+
+.btn:active {
+  background-color: darkorange !important;
+}
